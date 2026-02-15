@@ -1,4 +1,4 @@
-part of '../event_bus.dart';
+part of '../core_bus.dart';
 
 /// An [Event] implementation that caches and replays the single most recent
 /// value to new listeners.

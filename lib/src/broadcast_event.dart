@@ -1,4 +1,4 @@
-part of '../event_bus.dart';
+part of '../core_bus.dart';
 
 /// A non-caching [Event] implementation.
 ///

@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:core_bus/event_bus.dart';
+import 'package:core_bus/core_bus.dart';
 
 /// A simple example demonstrating the different event types available in
 /// this EventBus library.

@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:core_bus/event_bus.dart';
+import 'package:core_bus/core_bus.dart';
 
 const int iterations = 1000000;
 const int listenerCount = 5;

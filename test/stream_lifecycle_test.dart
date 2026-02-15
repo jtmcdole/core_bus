@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:core_bus/event_bus.dart';
+import 'package:core_bus/core_bus.dart';
 
 void main() {
   group('Stream Lifecycle', () {
