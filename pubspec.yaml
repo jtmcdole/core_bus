@@ -1,9 +1,11 @@
 name: core_bus
 description: A lightweight, type-safe Event Bus for Dart with optional event replaying. Decouples asynchronous code with minimal overhead.
 version: 1.0.0
+homepage: https://github.com/jtmcdole/core_bus
+repository: https://github.com/jtmcdole/core_bus
+
 environment:
   sdk: '>=3.10.0 <4.0.0'
-dependencies:
-  meta: ^1.18.0
+
 dev_dependencies:
   test: ^1.29.0
