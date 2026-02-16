@@ -5,7 +5,7 @@ part of '../core_bus.dart';
 /// Listeners to this event will only receive data that is posted *after*
 /// they have subscribed to the [EventBus].
 final class _BroadcastEvent<T> extends Event<T> {
-  const _BroadcastEvent({required super.name});
+  const _BroadcastEvent({required super.name}) : super._();
 
   @override
   void post(EventBus bus, T event) {

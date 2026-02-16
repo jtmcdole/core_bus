@@ -119,7 +119,7 @@ sealed class Event<T> {
   /// avoid unexpected behavior, especially when using `const` events.
   final String name;
 
-  const Event({required this.name});
+  const Event._({required this.name});
 
   /// Creates a non-caching broadcast event.
   ///

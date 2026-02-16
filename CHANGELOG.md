@@ -1,5 +1,10 @@
 # core_bus
 
+## 1.0.1
+
+* Make default constructor for `Event` private. Non-breaking because you cannot
+  actually use this outside the package.
+
 ## 1.0.0
 
 * Initial release.

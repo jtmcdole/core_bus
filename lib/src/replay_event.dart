@@ -71,7 +71,7 @@ final class _ReplayEvent<T> extends Event<T> {
   /// The maximum number of events to cache and replay.
   final int limit;
 
-  const _ReplayEvent({required super.name, this.limit = 1});
+  const _ReplayEvent({required super.name, this.limit = 1}) : super._();
 
   @override
   void post(EventBus bus, T event) {
